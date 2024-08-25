@@ -9,7 +9,6 @@
 
 .images {
   width: 10%;
-  height: 100%;
   margin-left: 5%;
 }
 
@@ -30,7 +29,6 @@
 
 @media screen and (max-width: 760px) {
   .images {
-    height: 70%;
     width: 25%;
   }
   .container-h {

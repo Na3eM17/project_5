@@ -44,7 +44,6 @@ main {
 .botom-img {
   margin-top: 15px;
   width: 60%;
-  height: 250px;
 }
 
 .bottom1 {
@@ -54,14 +53,14 @@ main {
 .bottom {
   width: 500px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 input {
   width: 352px;
   height: 40px;
   border-radius: 5px;
-  margin-bottom: 5px;
 }
 .btn-m {
   font-size: 20px;
@@ -83,7 +82,6 @@ input {
 .center-img {
   margin-top: 20px;
   width: 40%;
-  height: 300px;
   background-image: url(main-img.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -122,11 +120,8 @@ input {
   }
   .botom-img {
     width: 80%;
-    height: 180px;
   }
-  .btn-m {
-    margin-top: 10px;
-  }
+  
 }
 
 @media screen and (max-width: 460px) {
@@ -140,7 +135,6 @@ input {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin-top: -5px;
   }
   h3 {
     font-size: 30px;
@@ -167,7 +161,6 @@ input {
     margin: 20px;
   }
   .center-img {
-    height: 40%;
     width: 60%;
   }
 }
